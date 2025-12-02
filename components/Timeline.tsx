@@ -1,7 +1,6 @@
 
-
 import React, { useState } from 'react';
-import { DayItinerary, ItineraryItem, TodoItem } from '../types';
+import { DayItinerary, ItineraryItem } from '../types';
 import { getActivityIcon } from '../constants';
 import { MapPin, Plus, Edit2, ExternalLink, CheckSquare, Square, Trash2, CloudRain, CloudSnow, Sun, Cloud, Check, History, Thermometer } from 'lucide-react';
 import EditModal from './EditModal';

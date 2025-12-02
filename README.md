@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 悠遊 YOYU - Travel Planner
 
-# Run and deploy your AI Studio app
+A comprehensive travel itinerary and expense tracker app.
 
-This contains everything you need to run your app locally.
+## Project Setup
 
-View your app in AI Studio: https://ai.studio/apps/drive/1MiRHQ6XTmh9szsv9pUkqUh8C5OQhPdBv
+### 1. Install Dependencies
+Run the following command to install all required packages:
+```bash
+npm install
+```
 
-## Run Locally
+### 2. Development
+Start the local development server:
+```bash
+npm run dev
+```
 
-**Prerequisites:**  Node.js
+## Deployment to GitHub Pages
 
+This project is configured to deploy automatically to GitHub Pages using the `gh-pages` package.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+1. Ensure this project is a git repository linked to GitHub.
+2. The `package.json` includes the necessary `deploy` scripts.
+
+### Deploy Steps
+1. Run the deploy command:
+   ```bash
+   npm run deploy
+   ```
+   This script will:
+   - Build the project (`npm run build`)
+   - Push the contents of the `dist` folder to a `gh-pages` branch on your GitHub repository.
+
+2. **Configure GitHub Settings**:
+   - Go to your repository on GitHub.
+   - Navigate to **Settings** > **Pages**.
+   - Under **Build and deployment** > **Source**, select **Deploy from a branch**.
+   - Select the `gh-pages` branch and `/ (root)` folder.
+   - Click **Save**.
+
+Your app should be live shortly after!

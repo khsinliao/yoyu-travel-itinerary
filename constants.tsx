@@ -1,6 +1,6 @@
 
 import { DayItinerary, ActivityType } from './types';
-import { Plane, Building, MapPin, Train, Snowflake } from 'lucide-react';
+import { Plane, Building, MapPin, Train } from 'lucide-react';
 import React from 'react';
 
 // Helper to generate IDs

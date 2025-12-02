@@ -1,7 +1,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { DayItinerary } from '../types';
-import { Map, Wallet, Plane, ChevronLeft, ChevronRight, Edit2, Check, Plus, Trash2, Settings, CloudLightning, GripVertical, Clock, Home, Download } from 'lucide-react';
+import { Map, Wallet, ChevronLeft, ChevronRight, Edit2, Check, Plus, Trash2, Settings, CloudLightning, GripVertical, Clock, Home, Download } from 'lucide-react';
 
 interface SidebarProps {
   days: DayItinerary[];
