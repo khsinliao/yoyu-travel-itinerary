@@ -3,13 +3,17 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "./",
+  "homepage": "https://khsinliao.github.io/yoyu-travel-itinerary/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khsinliao/yoyu-travel-itinerary.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/khsinliao/yoyu-travel-itinerary.git"
   },
   "dependencies": {
     "lucide-react": "^0.292.0",
